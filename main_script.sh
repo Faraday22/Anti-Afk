@@ -1,10 +1,10 @@
 #!/bin/bash
 
 # Import the functions
-source ~/Anti-Afk/Movements/Square-move.sh
-source ~/Anti-Afk/clock-till-end.sh
-source ~/Anti-Afk/locate-window.sh
-source ~/Anti-Afk/complete.sh
+source ~/Anti-Afk/Functions/Movements/Square-move.sh
+source ~/Anti-Afk/Functions/clock-till-end.sh
+source ~/Anti-Afk/Functions/locate-window.sh
+source ~/Anti-Afk/Functions/complete.sh
 
 clear
 

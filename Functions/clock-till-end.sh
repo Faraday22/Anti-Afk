@@ -1,5 +1,5 @@
 #!/bin/bash
-source ~/Anti-Afk/locate-window.sh
+source ~/Anti-Afk/Functions/locate-window.sh
 
 # Function to request the desired duration from the user
 get_duration() {
