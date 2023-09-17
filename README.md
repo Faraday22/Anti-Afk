@@ -4,6 +4,8 @@ Please let me know your opinion on this
 I hope you enjoy :D
 
 # How to install
+First look in requirements.txt to install nessassary packages
+
 You will need to install git if not already installed
 To install for those who don't know use "git clone https://github.com/Faraday22/Anti-Afk"
 
