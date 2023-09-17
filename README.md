@@ -11,7 +11,7 @@ A Anti-afk system for minecraft :D | All code is free to view, its all made in b
 
 # Things you need to change
 
-In ```locate-window.sh``` there is a thing that shows the minecraft version
+In ```locate-window.sh``` there is a thing that shows the minecraft version, 
 On line 9
 You might or need to change the version or title for it to work with your minecraft
 
