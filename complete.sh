@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #Success
-#Opens chat & gives instructions
+#Opens chat & gives instructions to user
 Instruct(){
 xdotool key t
 xdotool keydown ctrl+BackSpace
@@ -13,7 +13,7 @@ xdotool keydown ctrl+BackSpace
 sleep 2
 xdotool keyup ctrl+BackSpace
 sleep 1
-xdotool type "#Once you see the player punch you will need to move cursor in to window and click#"
+xdotool type "#Once you see the player punch you will need to move cursor in to window and click if not already in"
 sleep 5
 xdotool keydown ctrl+BackSpace
 sleep 2

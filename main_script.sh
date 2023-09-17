@@ -1,10 +1,10 @@
 #!/bin/bash
 
 # Import the functions
-source /home/user/Anti-Afk/Movements/Square-move.sh
-source /home/user/Anti-Afk/clock-till-end.sh
-source /home/user/Anti-Afk/locate-window.sh
-source /home/user/Anti-Afk/complete.sh
+source ~/Anti-Afk/Movements/Square-move.sh
+source ~/Anti-Afk/clock-till-end.sh
+source ~/Anti-Afk/locate-window.sh
+source ~/Anti-Afk/complete.sh
 
 clear
 
@@ -18,8 +18,7 @@ echo "---------------"
 read chosen_movements
 
 if [ "$chosen_movements" == "Square" ]; then 
- # Call the clock_end function to run the script with the Square movement
- clear
+ # Call the clock_end function to run the script with the Square movement init (may need to change in future)
  clock_end
  Instruct
 else

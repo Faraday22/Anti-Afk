@@ -1,5 +1,5 @@
 #!/bin/bash
-source /home/user/Anti-Afk/locate-window.sh
+source ~/Anti-Afk/locate-window.sh
 
 # Function to request the desired duration from the user
 get_duration() {
@@ -17,9 +17,8 @@ calculate_repetitions() {
 repeat_chosen_movement() {
   local chosen_movement="$1"
 
-  # Insert your code here to repeat the chosen movement in each iteration
-  # For example, let's assume you want to repeat the Square movement.
-  for ((i = 1; i <= repetitions; i++)); do
+    # repeates code
+    for ((i = 1; i <= repetitions; i++)); do
     echo "Running iteration $i/$repetitions..."  # Display the progress
     case "$chosen_movement" in
       "Square")
@@ -50,6 +49,9 @@ clock_end() {
 
   case "$chosen_movement" in
     "Square") #| "Circle"#  # Add other movements here if needed
+      
+      #Tabs into window first
+      
       locate-window
       repeat_chosen_movement "$chosen_movement"
       ;;
