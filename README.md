@@ -17,3 +17,6 @@ cd into anti afk
 ```cd Anti-Afk```
 
 and run ```./main_script.sh```
+
+
+
