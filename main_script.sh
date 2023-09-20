@@ -5,12 +5,21 @@ source ~/Anti-Afk/Functions/Movements/Square-move.sh
 source ~/Anti-Afk/Functions/clock-till-end.sh
 source ~/Anti-Afk/Functions/locate-window.sh
 source ~/Anti-Afk/Functions/complete.sh
+source ~/Anti-Afk/Functions/title.sh
 
 clear
 
 # Define the available movements
 movements=("Square")
+title
 
+echo "Which Minecraft Version Are you playing? (Ex:1.8.9)"
+read version
+clear
+
+
+
+title
 echo "Which Anti-Afk Movement do you wish to use?"
 
 echo "${movements[@]}"
@@ -24,4 +33,3 @@ if [ "$chosen_movements" == "Square" ]; then
 else
   echo "Invalid movement choice."
 fi
-

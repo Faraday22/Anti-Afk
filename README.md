@@ -17,12 +17,3 @@ cd into anti afk
 ```cd Anti-Afk```
 
 and run ```./main_script.sh```
-
-# Things you may & or may not need to change
-
-In ```locate-window.sh``` there is a thing that shows the minecraft version, 
-On line 9
-You might or need to change the version or title for it to work with your minecraft
-
-So please note that
-
