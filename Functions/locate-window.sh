@@ -4,7 +4,7 @@ clear
 source ~/Anti-Afk/main_script.sh
 #CHANGE MINECRAFT 1.8.9 to your title & or version it shows at top
 
-xdotool search --name "Minecraft $verson" windowactivate
+xdotool search --name "Minecraft $version" windowactivate
 
 
 #clicks into game
