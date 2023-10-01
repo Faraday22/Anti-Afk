@@ -22,7 +22,7 @@ clear
 title
 echo "Which Anti-Afk Movement do you wish to use?"
 
-echo "${movements[@]}"
+echo "$movements"
 echo "---------------"
 read chosen_movements
 

@@ -2,10 +2,12 @@
 This project is using xdotool to do basically everything
 
 Use your package manager to install it
-# Arch
-For arch linux its ```Sudo pacman -S xdotool```
+#Arch
+For Arch Based Linux Distros please use
+```Sudo pacman -S xdotool```
+
+
 
 #Debian
 For Debian Based Linux Distros please use
-```Sudo apt install xdotool``` or ```Sudo apt-get xdotool``` 
-I'm not sure I don't use debian
+```Sudo apt install xdotool```

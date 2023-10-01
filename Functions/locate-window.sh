@@ -1,9 +1,12 @@
 #!/bin/bash
+
+
+source ~/Anti-Afk/main.sh
+
 locate-window(){
 clear
-source ~/Anti-Afk/main_script.sh
-#CHANGE MINECRAFT 1.8.9 to your title & or version it shows at top
 
+#Locates minecraft window based on the version of the game
 xdotool search --name "Minecraft $version" windowactivate
 
 
